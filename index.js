@@ -8,7 +8,7 @@ connectToMongo();
 
 
 // Config
-dotenv.config({ path: "C.env" })
+dotenv.config({ path: "Config.env" })
 
 const app = express()
 const port = 5000
